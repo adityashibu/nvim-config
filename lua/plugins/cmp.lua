@@ -20,18 +20,18 @@ return {
                 capabilities = capabilities,
                 on_attach = on_attach,
             }
-        --     require("lspconfig").cssls.setup {
-        --         capabilities = capabilities,
-        --         on_attach = on_attach,
-        --     }
+            require("lspconfig").cssls.setup {
+                capabilities = capabilities,
+                on_attach = on_attach,
+            }
         --     require("lspconfig").gopls.setup {
         --         capabilities = capabilities,
         --         on_attach = on_attach,
         --     }
-        --     require("lspconfig").html.setup {
-        --         capabilities = capabilities,
-        --         on_attach = on_attach,
-        --     }
+            require("lspconfig").html.setup {
+                capabilities = capabilities,
+                on_attach = on_attach,
+            }
         --     require("lspconfig").jdtls.setup {
         --         capabilities = capabilities,
         --         on_attach = on_attach,
